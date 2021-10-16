@@ -6,7 +6,7 @@ Page({
   data: {
     imgUrls: [
       '../../images/banner.png',
-      '../../images/banner.jpg'
+      '../../images/duck.jpg'
     ],
     indicatorDots: true,
     autoplay: true,
@@ -20,6 +20,12 @@ Page({
   search: function () {
     wx.navigateTo({
       url: "../search/search"
+    })
+  },
+  
+  Gotofeedback: function(){
+    wx.navigateTo({
+      url: "../feedback/feedback"
     })
   },
 })

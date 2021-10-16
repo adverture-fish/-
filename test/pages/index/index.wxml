@@ -26,7 +26,7 @@
       </view>
       <view class="icon3">
         <image mode="aspectFit" src="../../images/icon3.png"></image>
-        <image mode="aspectFit" src="../../images/icon4.png"></image>
+        <image mode="aspectFit" src="../../images/icon4.png" bindtap="Gotofeedback"></image>
         <image mode="aspectFit" src="../../images/icon5.png"></image>
       </view>
     </view>

@@ -1,0 +1,38 @@
+<view>
+    意见反馈
+</view>
+ <view class="fb_main">
+      <view class="fb_title">
+          问题种类
+      </view>
+      <view class="fb_tips">
+            <text>服务问题</text>
+            <text>价格问题</text>
+            <text>菜品味道</text>
+            <text>其他</text>   
+      </view>
+      <view class="fb_content">
+            <textarea value="{{textValue}}" bindinput="handleInput" placeholder="请描述一下您的问题"> </textarea>
+            <view class="fb_tool">
+                <button bindtap="handleChooseImg">+</button>
+                <view class="up_image_item"
+                wx:for="{{ChooseImgs}}"
+                wx:key="*this"
+                bindtap="handleRemoveImg"
+                data-index="{{index}}"
+                ><upimage src="{{item}}"></upimage>
+                </view>
+            </view>   
+      </view>
+      <view class="form_btn_wrap">
+            <button bindtap="handleFormSubmit" type="warn">
+                <icon type="success_no_circle" size="23" color="white">
+                    
+                </icon>
+                提交  
+            </button>
+              
+      </view>
+ </view>
+   
+  
