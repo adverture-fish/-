@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/detail",
+    "pages/my/my",
+    "pages/community/community",
+    "pages/class/class",
+    "pages/search/search",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "哈工大食堂",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#777777",
+    "selectedColor": "#ff6000",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/foot1.png",
+        "selectedIconPath": "images/foot1_sel.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "分类",
+        "iconPath": "images/foot4.png",
+        "selectedIconPath": "images/foot4_sel.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "images/foot3.png",
+        "selectedIconPath": "images/foot3_sel.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/foot2.png",
+        "selectedIconPath": "images/foot2_sel.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

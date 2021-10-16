@@ -1,0 +1,35 @@
+/* pages/class/class.wxss */
+.class{
+  width: 80%;
+  margin: auto;
+}
+.item{
+  overflow: auto;
+  margin-bottom: 10px;
+}
+.item .title{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.item .icon{
+  width: 270px;
+  margin: auto;
+  margin-top: 15px;
+}
+.item .icon text{
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: solid 1px #d2d2d2;
+  float: left;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.item .icon text:nth-child(4n){
+  margin-right: 0px;
+}

@@ -1,0 +1,117 @@
+/**app.wxss**/
+.container {
+  width: 90%;
+  margin: auto;
+} 
+.search{
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background: #f0f0f0;
+  margin: auto;
+  border-radius: 25px;
+}
+.sear-icon{
+  float: left;
+  width: 30px;
+  height: 45px;
+  padding-left: 15px;
+}
+.sear-icon image{
+  width: 20px;
+  height: 20px;
+  margin-top: 12.5px;
+}
+.search .sear-input{
+  float: left;
+  width: 60%;
+  height: 45px;
+  line-height: 45px;
+}
+.search .sear-input input{
+  height: 45px;
+  line-height: 45px;
+}
+.search .sear-btn{
+  width: 60px;
+  height: 45px;
+  line-height: 45px;
+  float: right;
+  background: #d3d3d3;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-align: center;
+  font-weight: 600;
+  color: #222222;
+}
+.banner{
+  width: 100%;
+  margin-top: 20px;
+}
+.banner image{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.icon-block{
+  margin-top: 20px;
+  width: 100%;
+}
+.big-icon-block .icon2{
+  width: 100%;
+  overflow: auto;
+}
+.big-icon-block .icon2 image{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+  height: 110px;
+}
+.big-icon-block .icon2 image:nth-child(2n){
+  margin-right: 0px;
+}
+.big-icon-block .icon3{
+  width: 100%;
+  overflow: auto;
+}
+.big-icon-block .icon3 image{
+  width: 31%;
+  float: left;
+  margin-right: 3.5%;
+  height: 120px;
+}
+.big-icon-block .icon3 image:nth-child(3n){
+  margin-right: 0px;
+}
+
+.top-border{
+  width: 100%;
+  margin-top: 10px;
+  border-top: #f0f0f0 solid 1px;
+}
+.top-border .news{
+  width: 90%;
+  margin: auto;
+}
+.news-item{
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+.news-item .title{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.news-item .images image{
+  width: 31%;
+  float: left;
+  margin-right: 3.5%;
+  height: 85px;
+}
+.news-item .images image:nth-child(3n){
+  margin-right: 0px;
+}

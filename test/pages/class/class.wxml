@@ -1,0 +1,9 @@
+<!--pages/class/class.wxml-->
+<view class="class">
+  <view wx:for="{{classmsg}}" wx:key="key" class="item">
+    <view class="title">{{item.title}}</view>
+    <view class="icon">
+      <text wx:for="{{item.icons}}">{{item}}</text>
+    </view>
+  </view>
+</view>

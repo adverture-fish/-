@@ -1,0 +1,33 @@
+<view class="body">
+  <view class="commmunity">
+    <!-- <view class="list">
+      <view wx:for="{{itemlist}}" class="item">
+        <view class="image">
+          <image mode="widthFix" src="{{item.imageUrl}}"></image>
+          <view class="name">{{item.name}}</view>
+        </view>
+        <view class="title">{{item.title}}</view>
+      </view>
+    </view> -->
+    <view class="list">
+      <view class='list-half'>
+        <view wx:for="{{itemlist}}" wx:key="index" wx:if="{{index%2 == 0}}" class='item'>
+          <view class="image">
+            <image mode="widthFix" src="{{item.imageUrl}}"></image>
+            <view class="name">{{item.name}}</view>
+          </view>
+          <view class="title">{{item.title}}</view>
+        </view>
+      </view>
+      <view class='list-half'>
+        <view wx:for="{{itemlist}}" wx:key="index" wx:if="{{index%2 != 0}}" class='item'>
+          <view class="image">
+            <image mode="widthFix" src="{{item.imageUrl}}"></image>
+            <view class="name">{{item.name}}</view>
+          </view>
+          <view class="title">{{item.title}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

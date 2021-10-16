@@ -1,0 +1,68 @@
+/* pages/community/community.wxss */
+.body{
+  width: 100%;
+  background: #f8f8f8;
+}
+.commmunity{
+  width: 90%;
+  margin: auto;
+  
+}
+.item{
+  width: 100%;
+  margin-bottom: 10px;
+  background: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.item:nth-child(2n){
+  margin-right: 0px;
+}
+.item .image{
+  width: 100%;
+  position: relative;
+}
+.item .image image{
+  width: 100%;
+}
+.item .image .name{
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.item .title{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 30px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+ 
+.list .list-half {
+  box-sizing: border-box;
+  width: 47%;
+  float: left;
+  border-radius: 8px;
+  
+  margin-bottom: 10px;
+  margin-right: 6%;
+}
+.list .list-half:nth-child(2n){
+  margin-right: 0px;
+}
+.list-half .card {
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}

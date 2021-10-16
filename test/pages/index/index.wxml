@@ -1,0 +1,79 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="search">
+    <view class="sear-icon">
+      <image src="../../images/search.png"></image>
+    </view>
+    <view class="sear-input">
+      <input placeholder="搜索你想吃的"></input>
+    </view>
+    <view bindtap="search" class="sear-btn">搜索</view>
+  </view>
+
+  <swiper class="banner" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="key">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="icon-block">
+    <view class="big-icon-block">
+      <view class="icon2">
+        <image mode="aspectFit" src="../../images/icon1.png"></image>
+        <image mode='aspectFit' src="../../images/icon2.png"></image>
+      </view>
+      <view class="icon3">
+        <image mode="aspectFit" src="../../images/icon3.png"></image>
+        <image mode="aspectFit" src="../../images/icon4.png"></image>
+        <image mode="aspectFit" src="../../images/icon5.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="top-border">
+  <view class="news">
+    <navigator url="../news/detail">
+      <view class="news-item">
+        <view class="title">新闻|三食堂上新啦！</view>
+        <view class="images">
+          <image src="../../images/food.jpg"></image>
+          <image src="../../images/food.jpg"></image>
+          <image src="../../images/food.jpg"></image>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../news/detail">
+      <view class="news-item">
+        <view class="title">推荐|汤味醇厚，温胃润肠</view>
+        <view class="images">
+          <image src="../../images/food1.jpg"></image>
+          <image src="../../images/food1.jpg"></image>
+          <image src="../../images/food1.jpg"></image>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../news/detail">
+      <view class="news-item">
+        <view class="title">评测|一食堂肠粉</view>
+        <view class="images">
+          <image src="../../images/food.jpg"></image>
+          <image src="../../images/food.jpg"></image>
+          <image src="../../images/food.jpg"></image>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../news/detail">
+      <view class="news-item">
+        <view class="title">浓郁奶香，好吃到尖叫~</view>
+        <view class="images">
+          <image src="../../images/food.jpg"></image>
+          <image src="../../images/food.jpg"></image>
+          <image src="../../images/food.jpg"></image>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

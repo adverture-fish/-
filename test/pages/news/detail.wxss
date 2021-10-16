@@ -1,0 +1,54 @@
+/* pages/news/detail.wxss */
+.condition{
+  width: 100%;
+}
+.content{
+  width: 90%;
+  margin: auto;
+}
+.content .title{
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+.back{
+  width: 100%;
+  margin-top: 15px;
+  overflow: auto;
+}
+.back image{
+  width: 50px;
+  height: 50px;
+  float: left;
+  border-radius: 50%;
+}
+.back .left{
+  float: left;
+}
+.back .right{
+  float: left;
+  margin-left: 15px;
+}
+.back .right .name{
+  font-size: 18px;
+  color: #333;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.back .right .time{
+  font-size: 14px;
+  color: #dedede;
+}
+.detail{
+  width: 100%;
+  margin-top: 20px;
+  line-height: 25px;
+  color: #333;
+  padding-bottom: 10px;
+}
+.detail image{
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 10px;
+}

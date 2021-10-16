@@ -1,0 +1,79 @@
+/* pages/my/my.wxss */
+.header{
+  width: 100%;
+  height: 120px;
+  border-radius: 8px;
+}
+.back-image{
+  position: relative
+}
+.back-image .back{
+  width: 100%;
+  height: 120px;
+  border-radius: 8px;
+}
+.icon{
+  width: 250px;
+  height: 60px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.icon .user-icon{
+  width: 60px;
+  height: 60px;
+  float: left;
+  border-radius: 50%;
+}
+.icon .info{
+  float: left;
+  margin-left: 20px;
+}
+.icon .info .nick{
+  font-size: 22px;
+  color: #ffffff;
+  float: left;
+  margin-bottom: 8px;
+}
+.info .nick .label{
+  background: #ffffff;
+  color: #ff6503;
+  font-size: 16px;
+  padding: 0px 8px;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+.phone{
+  color: #ffffff;
+}
+.lists{
+  margin-top: 20px;
+}
+.lists .li{
+  width: 100%;
+  overflow: auto;
+  height: 40px;
+  margin-bottom: 5px;
+  line-height: 40px;
+}
+.lists .li .left{
+  float: left;
+  font-size: 16px;
+}
+.li .left image{
+  width: 18px;
+  right: 18px;
+  float: left;
+  margin-right: 8px;
+  margin-top: 11px;
+}
+.lists .li .right{
+  float: right;
+}
+.login{
+  width: 60%;
+  margin: 50px auto;
+}
+.login image{
+  width: 100%;
+}

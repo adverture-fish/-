@@ -1,0 +1,20 @@
+<!--pages/news/detail.wxml-->
+<view class="condition">
+  <view class="content">
+    <view class="title">秋季滋补从每一餐开始</view>
+    <view class="back">
+      <view class="left">
+        <image src="../../images/icon_header.png"></image>
+      </view>
+      <view class="right">
+        <view class="name">小程序之家</view>
+      </view>
+    </view>
+    <view class="detail">
+      秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始。
+      <image src="../../images/commoncity2.png"></image>
+      秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始。
+      秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始，秋季滋补从每一餐开始。
+    </view>
+  </view>
+</view>
